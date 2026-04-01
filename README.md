@@ -85,8 +85,9 @@ df = pd.read_csv('/content/drive/MyDrive/path_to_your_dataset/Output.csv')
 ```
 
 ▶️ Running the Notebook
-Run all cells: Runtime → Run all
-Run individual cells: Shift + Enter
+
+- Run all cells: Runtime → Run all
+- Run individual cells: Shift + Enter
 
 ---
 
