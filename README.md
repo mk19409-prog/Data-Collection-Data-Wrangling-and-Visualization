@@ -61,6 +61,8 @@ from google.colab import files
 uploaded = files.upload()
 
 
+---
+
 Then load it:
 
 import pandas as pd
