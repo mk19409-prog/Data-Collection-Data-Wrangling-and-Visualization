@@ -33,6 +33,53 @@ The primary goal of this milestone is to demonstrate the ability to:
 └── README.md
 
 
+- To run `WQI_implementation_DSML.ipynb` file, you need to use `merge_master.csv` dataset.
+- To run `EDA_for_ML_Model_DS.ipynb` file, you need to use `Output.csv` dataset.
+- Then you will get the final output and export `df_scaled_minmax.csv` dataset thats ready for ML based analysis.
+
+---
+
+# How to Run/Reproduce outputs using code(.ipynb) in Google Colab with the given Datasets and codes
+
+
+## Open Notebook in Google Colab
+
+1. Go to https://colab.research.google.com/
+2. Click **File → Upload notebook**
+3. Upload any of the notebook `.ipynb` file  
+
+---
+
+## 📂 Adding Respective Dataset with the Code
+
+
+### Option 1: Upload Dataset
+
+
+```python
+from google.colab import files
+uploaded = files.upload()
+
+Then load it:
+
+import pandas as pd
+df = pd.read_csv("your_file.csv")```
+
+### Option 2: Use Google Drive (Recommended)
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+Authorize access, then load your dataset:
+
+import pandas as pd
+df = pd.read_csv('/content/drive/MyDrive/path_to_your_dataset/Output.csv')
+
+
+▶️ Running the Notebook
+Run all cells: Runtime → Run all
+Run individual cells: Shift + Enter
+
 
 ---
 
