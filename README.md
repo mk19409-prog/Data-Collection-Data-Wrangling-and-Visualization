@@ -3,7 +3,9 @@ This repository contains the Milestone 2 deliverables for **CSCI-7090: Data Scie
 
 
 # Team 10 – CSCI-7090: Data Collection, Wrangling, and Visualization (Milestone 2)
-
+Members: 
+- Md Rajaul Karim
+- Md Jahidul Islam
 
 The primary goal of this milestone is to demonstrate the ability to:  
 - Acquire and document a real-world dataset relevant to our research topic.  
@@ -61,31 +63,43 @@ from google.colab import files
 uploaded = files.upload()
 ```
 
----
-
 Then load it:
 
+```python
 import pandas as pd
-df = pd.read_csv("your_file.csv")
+df = pd.read_csv("dataset file.csv")
+```
 
 ### Option 2: Use Google Drive (Recommended)
 
+```python
 from google.colab import drive
 drive.mount('/content/drive')
+```
 
-Authorize access, then load your dataset:
+Authorize access, then load the dataset:
 
+```python
 import pandas as pd
 df = pd.read_csv('/content/drive/MyDrive/path_to_your_dataset/Output.csv')
-
+```
 
 ▶️ Running the Notebook
 Run all cells: Runtime → Run all
 Run individual cells: Shift + Enter
 
-
 ---
 
+# How to Run Latex Project Using Overleaf
+You need to download the `Water_Quality_Index_Prediction_Using Machine Learnig.zip` file from the `Latex File' folder in this repository. Then follow these simple following steps:
+
+- Go to https://www.overleaf.com/
+- Click New Project → Upload Project
+- Upload the .zip file
+- The project will automatically compile
+
+---
+---
 
 ## Data Operations Competed in this Miltestone 
 
