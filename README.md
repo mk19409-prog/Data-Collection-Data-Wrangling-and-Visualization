@@ -58,12 +58,12 @@ The primary goal of this milestone is to demonstrate the ability to:
 
 ```python
 from google.colab import files
-uploaded = files.upload()
+uploaded = files.upload() ```
 
 Then load it:
 
 import pandas as pd
-df = pd.read_csv("your_file.csv")```
+df = pd.read_csv("your_file.csv")
 
 ### Option 2: Use Google Drive (Recommended)
 
