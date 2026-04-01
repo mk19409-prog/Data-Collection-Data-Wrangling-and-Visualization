@@ -15,7 +15,19 @@ The primary goal of this milestone is to demonstrate the ability to:
 ## Repository Structure
 
 ├── Codes<br>
+├    ├─EDA<br>
+├    ├   ├──EDA_for_ML_Model_DS.ipynb<br>
+├    ├   ├──EDA_for_ML_Model_DS.ipynb.pdf<br>
+├    ├─WQI Implementation Code<br>
+├    ├   ├──WQI_implementation_DSML.ipynb<br>
+├    ├   ├──WQI_implementation_DSML.ipynb.pdf<br>
 ├── Datasets<br>
+├    ├   ├──Final Dataset For ML<br>
+├    ├   ├──df_scaled_minmax.csv<br>
+├    ├   ├──Raw Dataset<br>
+├    ├   ├    ├──merge_master.csv<br>
+├    ├   ├──Dataset with WQI<br>
+├    ├   ├    ├──Output.csv<br>
 ├── Latex File<br>
 ├── IEEEtran.cls<br>
 ├── Milestone-1.pptx<br>
