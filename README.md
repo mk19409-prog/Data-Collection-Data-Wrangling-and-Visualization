@@ -15,45 +15,39 @@ The primary goal of this milestone is to demonstrate the ability to:
 ## Repository Structure
 
 Team10-Milestone2/
+
 │
+
 ├─ data/
+
 │ ├─ raw/ #raw dataset
+
 │ └─ cleaned/ # Cleaned dataset ready for analysis (CSV)
+
 │
+
 ├─ notebooks/
+
 │ └─ Milestone2.ipynb # Jupyter Notebook with complete data pipeline, wrangling, EDA, and visualizations
+
 │
+
 ├─ visuals/
+
 │ └─ figures/ # Exported figures and plots from EDA
+
 │
+
 ├─ README.md # Project overview and instructions
+
 └─ references.md # Sources, dataset links, and citations
 
 
 
 ---
 
-## Dataset Description
 
-- **Source:** [Insert dataset source, e.g., Kaggle, UCI ML Repository, government portal, API, or web scraping link]  
-- **Access Date:** [MM/DD/YYYY]  
-- **Number of Records:** [e.g., 10,000 rows]  
-- **Number of Features:** [e.g., 15 columns]  
-- **Target Variable:** [If applicable, specify the target]  
-
-### Data Dictionary
-| Feature Name | Data Type | Description | Example Values |
-|--------------|-----------|-------------|----------------|
-| feature_1    | int       | Description | 123            |
-| feature_2    | float     | Description | 45.67          |
-| ...          | ...       | ...         | ...            |
-
-### Relevance Statement
-*This dataset is directly relevant to our literature review topic on [insert topic]. It provides [describe types of data], which allows us to [describe what analysis or insights are enabled]. The dataset is appropriate for predictive modeling due to [state justification, e.g., variety of features, numerical and categorical types, sufficient sample size].*
-
----
-
-## Data Wrangling and Preprocessing
+## Data Operations Competed in this Miltestone 
 
 The dataset was cleaned and prepared for analysis through the following steps:  
 
@@ -77,27 +71,5 @@ Visualizations were created to uncover patterns, relationships, and trends:
 - **Time Series / Specialized Plots:** Trend visualizations, geographic plots, or alternative visualizations appropriate to the dataset.  
 
 All visualizations are publication-quality with clear titles, labeled axes, consistent color schemes, and interpretation text accompanying each figure.
-
----
-
-
-🛠 How to Compile Locally (LaTeX)
-
-
-Step 1: Install LaTeX
-Install one of the following distributions:
-- Windows → MiKTeX
-- Mac → MacTeX
-- Linux → TeX Live
-
-Step 2: Clone the Repository
-git clone <repository-link>
-cd <repository-folder>
-
-Step 3: Compile the Document
-- pdflatex main.tex
-- bibtex main
-- pdflatex main.tex
-- pdflatex main.tex
 
 
