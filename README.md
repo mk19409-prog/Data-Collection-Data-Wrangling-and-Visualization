@@ -14,14 +14,12 @@ The primary goal of this milestone is to demonstrate the ability to:
 
 ## Repository Structure
 
-├── main.tex<br>
-├── references.bib<br>
-├── Milestone_I_Literature Review.pdf<br>
+├── Codes<br>
+├── Datasets<br>
+├── Latex File<br>
 ├── IEEEtran.cls<br>
-├── Milestone -1.pptx<br>
+├── Milestone-1.pptx<br>
 └── README.md
-
-Reza
 
 
 
