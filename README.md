@@ -14,16 +14,12 @@ The primary goal of this milestone is to demonstrate the ability to:
 
 ## Repository Structure
 
-Team10-Milestone2/
-├─ data/
-│ ├─ raw/ # Original/raw dataset
-│ └─ cleaned/ # Cleaned dataset ready for analysis (CSV)
-├─ notebooks/
-│ └─ Milestone2.ipynb # Jupyter Notebook with complete data pipeline, wrangling, EDA, and visualizations
-├─ visuals/
-│ └─ figures/ # Exported figures and plots from EDA
-├─ README.md # Project overview and instructions
-└─ references.md # Sources, dataset links, and citations
+├── main.tex<br>
+├── references.bib<br>
+├── Milestone_I_Literature Review.pdf<br>
+├── IEEEtran.cls<br>
+├── Milestone -1.pptx<br>
+└── README.md
 
 
 
