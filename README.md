@@ -92,7 +92,7 @@ df = pd.read_csv('/content/drive/MyDrive/path_to_your_dataset/Output.csv')
 ---
 
 # How to Run Latex Project Using Overleaf
-You need to download the `Water_Quality_Index_Prediction_Using Machine Learnig.zip` file from the `Latex File' folder in this repository. Then follow these simple following steps:
+You need to download the `Water_Quality_Index_Prediction_Using Machine Learnig.zip` file from the `Latex File` folder from this repository. Then follow these simple following steps:
 
 - Go to https://www.overleaf.com/
 - Click New Project → Upload Project
