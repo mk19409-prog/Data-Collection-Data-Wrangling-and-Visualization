@@ -18,16 +18,16 @@ The primary goal of this milestone is to demonstrate the ability to:
 ├    ├─EDA<br>
 ├    ├   ├──EDA_for_ML_Model_DS.ipynb<br>
 ├    ├   ├──EDA_for_ML_Model_DS.ipynb.pdf<br>
-├    ├
+├    ├<br>
 ├    ├─WQI Implementation Code<br>
 ├    ├   ├──WQI_implementation_DSML.ipynb<br>
 ├    ├   ├──WQI_implementation_DSML.ipynb.pdf<br>
-├
+├<br>
 ├── Datasets<br>
 ├    ├──Final Dataset For ML\ df_scaled_minmax.csv<br>
 ├    ├──Raw Dataset\ merge_master.csv<br>
 ├    ├──Dataset with WQI\ Output.csv<br>
-├
+├<br>
 ├── Latex File\Water_Quality_Index_Prediction_Using Machine Learnig.zip<br>
 ├── Milestone-1.pptx<br>
 └── README.md
